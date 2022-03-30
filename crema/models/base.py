@@ -5,7 +5,7 @@ import pickle
 import os
 from pkg_resources import resource_filename
 
-from keras.models import model_from_config
+from tensorflow.keras.models import model_from_config
 import librosa
 
 from ..version import version as version
