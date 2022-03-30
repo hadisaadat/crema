@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 '''Custom Keras layers'''
 
-import keras.backend as K
-from keras.engine.topology import Layer
+import tensorflow.keras.backend as K
+from tensorflow.keras.engine.topology import Layer
 
 
 __all__ = ['SqueezeLayer']
